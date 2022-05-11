@@ -6,7 +6,7 @@ Given an array of integers `heights` representing the histogram's bar height w
 
 Example 1:
 
-![histogram.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3b41610d-1a14-4811-bab2-4722b63d815d/histogram.jpg)
+![](https://i.imgur.com/kLFmYVy.jpg)
 
 Input: heights = [2,1,5,6,2,3]
 Output: 10
@@ -14,7 +14,7 @@ Explanation: The above is a histogram where width of each bar is 1.
 The largest rectangle is shown in the red area, which has an area = 10 units.
 Example 2:
 
-![histogram-1.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/69dd7893-cf5c-4f3c-9f20-38313e76b761/histogram-1.jpg)
+![](https://i.imgur.com/3n58Yls.jpg)
 
 Input: heights = [2,4]
 Output: 4
@@ -36,7 +36,7 @@ Constraints:
 
 如下圖
 
-![increasing-order.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9006feaa-e5c0-40e1-a724-0e11dfe961d3/increasing-order.png)
+![](https://i.imgur.com/h9UYGoY.png)
 
 因為每個矩陣只要考慮最接近的height 恰巧可以使用 stack 後進先出的特性
 
@@ -48,11 +48,11 @@ Constraints:
 
 舉例如下：
 
-![increase-small-0.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9a3b6a1f-d4e0-4847-8202-d8f1435d1eb1/increase-small-0.png)
+![](https://i.imgur.com/CxhLbQ1.png)
 
-![increase-small-1.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a8897c07-58ae-46c5-96b6-21436e3ccc1f/increase-small-1.png)
+![](https://i.imgur.com/jpAEzqc.png)
 
-![increase-large-1.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b7853d0a-9792-4113-8025-399683089ccf/increase-large-1.png)
+![](https://i.imgur.com/QWwhKTB.png)
 
 這樣每次只要輪詢一次每個結點 
 
